@@ -1,23 +1,17 @@
 <!-- ========================================================= -->
 <!--                 B. SRIRAM | GITHUB PROFILE                -->
 <!-- ========================================================= -->
-<div align="center">
+# B. SRIRAM
 
-<h1><b>B. SRIRAM</b></h1>
-<h3><b>Bioinformatics Pipeline Engineer</b></h3>
+### Bioinformatics Pipeline Engineer
 
-<p><b>NGS & Genomics Workflows • Reproducible Bioinformatics • Scientific Computing</b></p>
+**NGS & Genomics Workflows • Reproducible Bioinformatics • Scientific Computing**
 
-<a href="https://www.linkedin.com/in/sr19703/">
-  <img src="https://img.shields.io/badge/LinkedIn-SRIRAM_B-0A66C2?style=flat-square&logo=linkedin&logoColor=white" />
-</a>
-<a href="https://github.com/Sriiraam">
-  <img src="https://img.shields.io/badge/GitHub-SRIIRAAM-181717?style=flat-square&logo=github&logoColor=white" />
-</a>
-<img src="https://komarev.com/ghpvc/?username=Sriiraam&label=Profile+Views&style=flat-square&color=0969DA" />
-<img src="https://img.shields.io/github/followers/Sriiraam?label=Followers&style=flat-square&color=0969DA" />
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-SRIRAM_B-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sriram-balaaji/)
+[![GitHub](https://img.shields.io/badge/GitHub-SRIIRAAM-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Sriiraam)
+![Profile Views](https://komarev.com/ghpvc/?username=Sriiraam&label=Profile+Views&style=flat-square&color=0969DA)
+![Followers](https://img.shields.io/github/followers/Sriiraam?label=Followers&style=flat-square&color=0969DA)
 
-</div>
 
 ---
 
