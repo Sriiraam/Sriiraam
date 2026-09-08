@@ -2,12 +2,12 @@
 <!--                 B. SRIRAM | GITHUB PROFILE                -->
 <!-- ========================================================= -->
 
-<h1 align="center">B. Sriram</h1>
+<h1 align="center"># **B. SRIRAM**</h1>
 
-<h3 align="center">Bioinformatics Pipeline Engineer</h3>
+<h3 align="center">### **Bioinformatics Pipeline Engineer**</h3>
 
 <p align="center">
-  NGS & Genomics Workflows • Reproducible Bioinformatics • Scientific Computing
+  **NGS & Genomics Workflows • Reproducible Bioinformatics • Scientific Computing**
 </p>
 
 <p align="center">
