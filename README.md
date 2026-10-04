@@ -8,11 +8,15 @@
 **NGS & Genomics Workflows • Reproducible Bioinformatics • Scientific Computing**
 
 <p>
-<a href="https://www.linkedin.com/in/sriram-balaaji/"><img src="https://img.shields.io/badge/LinkedIn-SRIRAM%20B-0A66C2?logo=linkedin&logoColor=white"></a>
-<a href="https://github.com/Sriiraam"><img src="https://img.shields.io/badge/GitHub-SRIIRAAM-181717?logo=github&logoColor=white"></a>
-<img src="https://img.shields.io/github/followers/Sriiraam?label=Followers&style=flat">
+  <a href="https://www.linkedin.com/in/sriram-balaaji/">
+    <img src="https://img.shields.io/badge/LinkedIn-SRIRAM%20B-0A66C2?logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
+  <a href="https://github.com/Sriiraam">
+    <img src="https://img.shields.io/badge/GitHub-SRIIRAAM-181717?logo=github&logoColor=white" alt="GitHub">
+  </a>
+  <img src="https://komarev.com/ghpvc/?username=Sriiraam&label=Profile+Views&color=0e75b6&style=flat" alt="Profile Views">
+  <img src="https://img.shields.io/github/followers/Sriiraam?label=Followers&style=flat" alt="Followers">
 </p>
----
 
 ## About Me
 
