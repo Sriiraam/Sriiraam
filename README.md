@@ -10,8 +10,7 @@
 <a href="https://www.linkedin.com/in/sriram-balaaji/">
   <img src="https://img.shields.io/badge/LinkedIn-SRIRAM_B-0A66C2?logo=linkedin&logoColor=white">
 </a>
-<a href="https://github.com/Sriiraam">
-  <img src="https://img.shields.io/badge/GitHub-SRIIRAAM-181717?logo=github&logoColor=white">
+![](https://komarev.com/ghpvc/?username=Sriiraam)
 </a>
 <img src="https://img.shields.io/github/followers/Sriiraam?label=Followers&style=flat">
 
