@@ -14,7 +14,7 @@
   <a href="https://github.com/Sriiraam">
     <img src="https://img.shields.io/badge/GitHub-SRIIRAAM-181717?logo=github&logoColor=white" alt="GitHub">
   </a>
-  <img src="https://komarev.com/ghpvc/?username=Sriiraam&label=Profile+Views&color=0e75b6&style=flat" alt="Profile Views">
+  <img src="https://viewcounter.live/Sriiraam?label=Profile%20Views" alt="Profile Views">
   <img src="https://img.shields.io/github/followers/Sriiraam?label=Followers&style=flat" alt="Followers">
 </p>
 
