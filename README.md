@@ -14,8 +14,7 @@
   <a href="https://github.com/Sriiraam">
     <img src="https://img.shields.io/badge/GitHub-SRIIRAAM-181717?logo=github&logoColor=white" alt="GitHub">
   </a>
-  <img src="https://viewcounter.live/Sriiraam?label=Profile%20Views" alt="Profile Views">
-  <img src="https://img.shields.io/github/followers/Sriiraam?label=Followers&style=flat" alt="Followers">
+  <img src="https://img.shields.io/github/followers/Sriiraam?label=Followers&style=flat" alt="GitHub Followers">
 </p>
 
 ## About Me
@@ -188,7 +187,7 @@ with an emphasis on **NGS pipeline engineering, genomics workflow development, c
 ## Connect
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/sr19703/">
+ <a href="https://www.linkedin.com/in/sriram-balaaji/">
     <img src="https://img.shields.io/badge/LinkedIn-Sriram_B-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
 
