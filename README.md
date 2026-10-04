@@ -9,7 +9,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-SRIRAM_B-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sriram-balaaji/)
 [![GitHub](https://img.shields.io/badge/GitHub-SRIIRAAM-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Sriiraam)
-![Profile Views](https://komarev.com/ghpvc/?username=Sriiraam&label=Profile+Views&style=flat-square&color=0969DA)
+<img src="https://komarev.com/ghpvc/?username=Sriiraam&label=Profile%20Views&style=flat-square" alt="Profile Views" />
 ![Followers](https://img.shields.io/github/followers/Sriiraam?label=Followers&style=flat-square&color=0969DA)
 
 
