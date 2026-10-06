@@ -139,14 +139,14 @@ I focus on transforming biological analyses into **structured, reproducible, val
 
 <p align="center">
   <img width="95%"
-       src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Sriiraam&theme=github_dark"/>
+       src="./profile-summary-card-output/github_dark/0-profile-details.svg"/>
 </p>
 
 <p align="center">
   <img width="46%"
-       src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Sriiraam&theme=github_dark"/>
+       src="./profile-summary-card-output/github_dark/3-stats.svg"/>
   <img width="46%"
-       src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Sriiraam&theme=github_dark&utcOffset=5.5"/>
+       src="./profile-summary-card-output/github_dark/4-productive-time.svg"/>
 </p>
 
 ---
@@ -155,9 +155,9 @@ I focus on transforming biological analyses into **structured, reproducible, val
 
 <p align="center">
   <img width="46%"
-       src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Sriiraam&theme=github_dark"/>
+       src="./profile-summary-card-output/github_dark/1-repos-per-language.svg"/>
   <img width="46%"
-       src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Sriiraam&theme=github_dark"/>
+       src="./profile-summary-card-output/github_dark/2-most-commit-language.svg"/>
 </p>
 
 ---
