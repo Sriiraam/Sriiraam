@@ -22,13 +22,63 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
+      - name: Check profile token
+        env:
+          PROFILE_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
+        run: |
+          if [ -z "$PROFILE_TOKEN" ]; then
+            echo "::error::Add the SUMMARY_GITHUB_TOKEN repository secret before running this workflow."
+            exit 1
+          fi
       - name: Generate profile cards
         uses: vn7n24fzkq/github-profile-summary-cards@09ba4dde3f9b05828cb99553561db3f4ff07703f
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
         with:
           USERNAME: Sriiraam
           BRANCH_NAME: main
           UTC_OFFSET: "5.5"
           THEME: github_dark
-          AUTO_PUSH: true
+          AUTO_PUSH: false
+      - name: Validate cards and update README image paths
+        shell: python
+        run: |
+          from pathlib import Path
+          import xml.etree.ElementTree as ET
+
+          folder = Path("profile-summary-card-output/github_dark")
+          cards = {
+              "profile-details": "0-profile-details.svg",
+              "repos-per-language": "1-repos-per-language.svg",
+              "most-commit-language": "2-most-commit-language.svg",
+              "stats": "3-stats.svg",
+              "productive-time": "4-productive-time.svg",
+          }
+          for filename in cards.values():
+              path = folder / filename
+              root = ET.parse(path).getroot()
+              if root.tag != "{http://www.w3.org/2000/svg}svg":
+                  raise RuntimeError(f"Invalid SVG: {path}")
+              text = path.read_text()
+              if "ERROR!!!" in text or "temporarily rate limited" in text.lower():
+                  raise RuntimeError(f"Error card generated: {path}")
+
+          readme = Path("README.md")
+          content = readme.read_text()
+          for endpoint, filename in cards.items():
+              old = f"https://github-profile-summary-cards.vercel.app/api/cards/{endpoint}?username=Sriiraam&theme=github_dark"
+              if endpoint == "productive-time":
+                  old += "&utcOffset=5.5"
+              content = content.replace(old, f"./{folder}/{filename}")
+          readme.write_text(content)
+
+      - name: Save verified cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile-summary-card-output README.md
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m "docs: refresh saved profile summary cards"
+          git push
